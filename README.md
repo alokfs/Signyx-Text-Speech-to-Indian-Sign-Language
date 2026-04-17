@@ -5,10 +5,10 @@ The input text is then processed using Natural Language Processing (NLP) techniq
 After processing, the system maps each word to predefined sign gestures stored in the dataset. These gestures are structured and prepared for visual representation.
 Finally, the output is displayed through an animated avatar that performs the corresponding sign language gestures, enabling clear and effective communication for hearing-impaired users.
 
+Full file setup : https://drive.google.com/drive/folders/1W6heXeJUohNFxLZayTD4UbEp5OC4_Urn?usp=sharing
 Process Workflow:
 Text / Speech Input → Speech-to-Text → NLP Processing → ISL Mapping → Avatar Animation → Output (Sign Language)
 
 
-Full file setup : https://drive.google.com/drive/folders/1W6heXeJUohNFxLZayTD4UbEp5OC4_Urn?usp=sharing
 https://github.com/user-attachments/assets/7f44839e-c274-44bf-a858-e3ef71cba0ae
 
