@@ -9,6 +9,6 @@ Process Workflow:
 Text / Speech Input → Speech-to-Text → NLP Processing → ISL Mapping → Avatar Animation → Output (Sign Language)
 
 
-
+Full file setup : https://drive.google.com/drive/folders/1W6heXeJUohNFxLZayTD4UbEp5OC4_Urn?usp=sharing
 https://github.com/user-attachments/assets/7f44839e-c274-44bf-a858-e3ef71cba0ae
 
