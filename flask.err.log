@@ -1,0 +1,68 @@
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.13:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 921-131-266
+127.0.0.1 - - [19/Mar/2026 03:02:26] "GET / HTTP/1.1" 200 -
+2026-03-19 03:02:34 INFO: Loading these models for language: en (English):
+============================================
+| Processor    | Package                   |
+--------------------------------------------
+| tokenize     | spacy                     |
+| mwt          | combined                  |
+| pos          | combined_charlm           |
+| lemma        | combined_nocharlm         |
+| constituency | ptb3-revised_charlm       |
+| depparse     | combined_charlm           |
+| sentiment    | sstplus_charlm            |
+| ner          | ontonotes-ww-multi_charlm |
+============================================
+
+2026-03-19 03:02:34 INFO: Using device: cpu
+2026-03-19 03:02:34 INFO: Loading: tokenize
+2026-03-19 03:02:35 INFO: Loading: mwt
+2026-03-19 03:02:37 INFO: Loading: pos
+2026-03-19 03:02:40 INFO: Loading: lemma
+2026-03-19 03:02:41 INFO: Loading: constituency
+2026-03-19 03:02:42 INFO: Loading: depparse
+2026-03-19 03:02:42 INFO: Loading: sentiment
+2026-03-19 03:02:43 INFO: Loading: ner
+2026-03-19 03:02:46 INFO: Done loading processors!
+127.0.0.1 - - [19/Mar/2026 03:02:46] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Mar/2026 03:02:56] "GET /static/SignFiles/P.sigml HTTP/1.1" 200 -
+127.0.0.1 - - [19/Mar/2026 03:03:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Mar/2026 03:03:06] "GET /style.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Mar/2026 03:03:06] "GET /css/cwasa.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Mar/2026 03:03:06] "GET /js/allcsa.js HTTP/1.1" 304 -
+127.0.0.1 - - [19/Mar/2026 03:03:06] "GET /js/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Mar/2026 03:03:06] "GET /jas/loc2021/cwa/cwacfg.json HTTP/1.1" 304 -
+127.0.0.1 - - [19/Mar/2026 03:03:06] "HEAD /jas/loc2021/avatars/COMMON.jar HTTP/1.1" 304 -
+127.0.0.1 - - [19/Mar/2026 03:03:06] "GET /jas/loc2021/cwa/h2s.xsl HTTP/1.1" 304 -
+127.0.0.1 - - [19/Mar/2026 03:03:06] "GET /jas/loc2021/avatars/COMMON.jar HTTP/1.1" 304 -
+127.0.0.1 - - [19/Mar/2026 03:03:06] "HEAD /jas/loc2021/avatars/marc.jar HTTP/1.1" 304 -
+127.0.0.1 - - [19/Mar/2026 03:03:06] "GET /jas/loc2021/avatars/marc.jar HTTP/1.1" 304 -
+127.0.0.1 - - [19/Mar/2026 03:03:07] "GET /jas/loc2021/cwa/shaders/qskin.vert HTTP/1.1" 304 -
+127.0.0.1 - - [19/Mar/2026 03:03:07] "GET /jas/loc2021/cwa/shaders/qskin.frag HTTP/1.1" 304 -
+127.0.0.1 - - [19/Mar/2026 03:03:10] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Mar/2026 03:03:11] "GET /SignFiles/P.sigml HTTP/1.1" 304 -
+127.0.0.1 - - [19/Mar/2026 03:03:16] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Mar/2026 03:03:17] "GET /SignFiles/P.sigml HTTP/1.1" 304 -
+C:\Users\Alok Bajpai\Documents\New project 2\main.py:89: DeprecationWarning: The StanfordParser will be deprecated
+Please use [91mnltk.parse.corenlp.CoreNLPParser[0m instead.
+  stanford_parser = StanfordParser()
+127.0.0.1 - - [19/Mar/2026 03:03:23] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Mar/2026 03:03:24] "GET /SignFiles/H.sigml HTTP/1.1" 304 -
+127.0.0.1 - - [19/Mar/2026 03:03:25] "GET /SignFiles/A.sigml HTTP/1.1" 304 -
+127.0.0.1 - - [19/Mar/2026 03:03:26] "GET /SignFiles/P.sigml HTTP/1.1" 304 -
+127.0.0.1 - - [19/Mar/2026 03:03:32] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Mar/2026 03:03:33] "GET /SignFiles/H.sigml HTTP/1.1" 304 -
+127.0.0.1 - - [19/Mar/2026 03:03:34] "GET /SignFiles/A.sigml HTTP/1.1" 304 -
+127.0.0.1 - - [19/Mar/2026 03:03:35] "GET /SignFiles/P.sigml HTTP/1.1" 304 -
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FF8D8319DED  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF8D9BCE8D7  Unknown               Unknown  Unknown
+ntdll.dll          00007FF8DB8AC48C  Unknown               Unknown  Unknown
