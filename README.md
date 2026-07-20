@@ -9,8 +9,8 @@ Run Website:=   http://127.0.0.1:5500/index.html
 
 
 Full file setup : https://drive.google.com/drive/folders/1wuVYn2txQbwnhus5nBDyLm3Ou8D61P4G?usp=drive_link
-Process Workflow:
-Text / Speech Input → Speech-to-Text → NLP Processing → ISL Mapping → Avatar Animation → Output (Sign Language)
+
+Process Workflow:  Text / Speech Input → Speech-to-Text → NLP Processing → ISL Mapping → Avatar Animation → Output (Sign Language)
 
 
 https://github.com/user-attachments/assets/7f44839e-c274-44bf-a858-e3ef71cba0ae
